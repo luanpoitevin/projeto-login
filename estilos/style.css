@@ -7,3 +7,63 @@ c3- #D93D04
 c4- #8C1C03
 c5- #590202
 */
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #BF5B04;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login{  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+
+    transition: width 0.6s, height 0.6s ;
+    transition-timing-function: ease;
+}
+
+section#login > div#imagem{
+    background: #BF5B04 url(../fotos/fundo.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+    display: block;
+}
+
+section#login > div#formulario{
+    padding: 10px;
+    display: block;
+}
+
+section#login > div#formulario > h1 {
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+section#login > div#formulario > p {
+    text-align: justify;
+    margin: 10px;
+    font-size: 12px;
+    
+}
